@@ -1,5 +1,5 @@
 # Elara
 A simple PHP framework for personal use.
 
-# Current State
+## Current State
 Work in progress.
