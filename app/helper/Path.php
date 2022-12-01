@@ -18,7 +18,7 @@ declare(strict_types=1);
 
 namespace App\Helper\Path;
 
-// Prevent direct access to the file.
+// Prevent from directly accessing the file.
 if (!defined('Elara')) {
     die(http_response_code(404));
     return;
@@ -39,7 +39,13 @@ abstract class Path {
      * Properties 
      * 
      * 
-     * 
+     * @access protected
      * @since Properties available since Release of Elara v0.0.1
      */
+    protected static $base_host;
+    protected static $base_app;
+    protected static $base_script;
+    protected static $base_current;
+    protected static $base_public;
+    protected static $base_skin;
 }
