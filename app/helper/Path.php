@@ -34,7 +34,8 @@ if (!defined('Elara')) {
  * @license        
  * @since Class available since Release of Elara v0.0.1
  */
-abstract class Path {
+abstract class Path 
+{
     /**
      * Properties 
      * 
