@@ -59,6 +59,22 @@ class SurrealDBConn
     {
 
     }
+
+    /**
+     * Connect
+     */
+    protected static function connect()
+    {
+
+    }
+
+    /**
+     * 
+     */
+    private function __distruct()
+    {
+      
+    }
 }
 
 
