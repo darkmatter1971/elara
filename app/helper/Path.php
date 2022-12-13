@@ -14,15 +14,20 @@
  * @copyright   
  **/
 
-declare(strict_types=1);
+ declare(strict_types = 1);
 
-namespace App\Helper\Path;
+ namespace App\Helper\Path;
+ 
+ // Set a custom constant with a long, random string.
+ define('ELARA_FRAMEWORK_KEY', 'VfLbC6QQwLHTc4ecU4V6GJhkLzo7VzXq3pU7V4U6');
+ 
+ // Prevent from directly accessing the file.
+ if (!defined('ELARA_FRAMEWORK_KEY') || ELARA_FRAMEWORK_KEY !== 'VfLbC6QQwLHTc4ecU4V6GJhkLzo7VzXq3pU7V4U6') {
+     die(http_response_code(404));
+     return;
+ }
 
-// Prevent from directly accessing the file.
-if (!defined('Elara')) {
-    die(http_response_code(404));
-    return;
-}
+ 
 
 /**
  * Short description for class
