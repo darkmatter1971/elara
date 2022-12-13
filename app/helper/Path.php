@@ -20,6 +20,12 @@
 
  require_once __DIR__ . '/func.php';
 
+ // Create an instance of the class
+//  $generator = new RandomStringGenerator();
+ 
+ // Generate a random string using the method
+//  $randomString = $generator->generateString();
+ 
  // Generate a string
  $string = generateString();
 
