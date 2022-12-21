@@ -1,0 +1,40 @@
+version: "3.9"
+
+services:
+  app:
+    build: .
+    working_dir: /var/www/app
+    command: php-fpm
+    volumes:
+      - ./:/var/www/app
+    environment:
+      - PHP_OPCACHE_VALIDATE_TIMESTAMPS=0
+      - PHP_OPCACHE_MAX_ACCELERATED_FILES=10000
+      - PHP_OPCACHE_MEMORY_CONSUMPTION=192
+    networks:
+      - app-network
+    depends_on:
+      - redis
+      - postgres
+
+  nginx:
+    image: nginx:latest
+    working_dir: /var/www/app
+    volumes:
+      - ./:/var/www/app
+      - ./docker/nginx/conf.d:/etc/nginx/conf.d
+    ports:
+      - 80:80
+      - 443:443
+    depends_on:
+      - app
+    networks:
+      - app-network
+
+  redis:
+    image: redis:latest
+    volumes:
+      - redis-data:/data
+    networks:
+      app-network:
+        driver: bridge
