@@ -1,2 +1,5 @@
 folder_structure.txt
 LICENSE
+config.acff
+logs/access.log
+logs/error.log
