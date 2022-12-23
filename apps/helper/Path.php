@@ -25,9 +25,9 @@
 }
 
 /**
- * Short description for class
+ * This class is a utility class that provides various functions for working with URLs and paths.
  *
- * Long description for class (if any)...
+ * The PathFinder class is a utility class that provides various functions for working with URLs and paths. It has methods for getting the current URL, the base URL, the script path, the document root, and more. It also has methods for parsing different parts of the URL, such as the domain name, the protocol, and the query string parameters. Additionally, the class has a method for redirecting the user to a different URL.
  *
  * @category Helper
  * @package Elara
