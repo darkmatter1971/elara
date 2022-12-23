@@ -20,8 +20,8 @@
 
  // Prevent from directly accessing the file.
  if (!defined('ELARA')) {
-    die(http_response_code(404));
-    return false;
+    http_response_code(404);
+    exit;
 }
 
 /**
