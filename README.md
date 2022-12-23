@@ -3,10 +3,14 @@
 </div>
 
 
+# 🚧 Work in progress 🚧
+
 ![PHP](https://img.shields.io/badge/PHP-8.2-777BB4?style=for-the-badge&logo=PHP)
 
 # Elara
 A simple PHP framework for personal use.
 
+<!--
 ## Current State
 Work in progress.
+-->
