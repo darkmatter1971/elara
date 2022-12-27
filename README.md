@@ -7,7 +7,7 @@
 </div>
 
 <div align="center">
-  ![PHP](https://img.shields.io/badge/PHP-8.2-777BB4?style=for-the-badge&logo=PHP)
+  <img src="https://img.shields.io/badge/PHP-8.2-777BB4?style=for-the-badge&logo=PHP" alt-"PHP">
 </div>
 
 # Elara
@@ -16,4 +16,5 @@ A simple PHP framework for personal use.
 <!--
 ## Current State
 Work in progress.
+![PHP](https://img.shields.io/badge/PHP-8.2-777BB4?style=for-the-badge&logo=PHP)
 -->
