@@ -6,7 +6,9 @@
   <h1>🚧 Work in progress 🚧</h1>
 </div>
 
-![PHP](https://img.shields.io/badge/PHP-8.2-777BB4?style=for-the-badge&logo=PHP)
+<div align="center">
+  ![PHP](https://img.shields.io/badge/PHP-8.2-777BB4?style=for-the-badge&logo=PHP)
+</div>
 
 # Elara
 A simple PHP framework for personal use.
