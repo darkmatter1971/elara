@@ -1,0 +1,43 @@
+# This is single line comment
+// Also single line comment
+/*
+This is multi line comment
+Another line
+*/ 
+
+// Database arrays
+DB_TYPE = [
+    MySQL = mysql,
+    SQLight = sqlite,
+]
+
+MySQL.HOST = localhost
+MySQL.NAME = database_name
+MySQL.USER = database_user
+MySQL.PASS= database_password
+
+SQLight.HOST = localhost
+SQLight.NAME = database_name
+SQLight.USER = database_user
+SQLight.PASS= database_password
+
+// Cache database arrays
+CACHE_TYPE = [
+    REDIS = redis,
+    MEMCACHED = memcached
+]
+
+REDIS.HOST = localhost
+REDIS.PORT = 6379
+
+MEMCACHED.HOST = localhost
+MEMCACHED.PORT = 6379
+
+# API key arrays
+API_KEY_1=abcdefghijklmnopqrstuvwxyz
+API_KEY_2=1234567890
+
+DEV_MODE = true
+
+DEBUG_MODE = true
+
