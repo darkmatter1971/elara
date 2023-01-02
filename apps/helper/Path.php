@@ -8,7 +8,7 @@
  * @category Helper
  * @package Elara
  * @license Public Domain
- * @author Tafhimul kabir <https://github.com/tafhimulkabir>
+ * @author Tafhimul kabir <tafhimulkabir@protonmail.com>
  * @link  
  * @since File available since Release of Elara v0.0.1
  * @copyright   
