@@ -7,7 +7,7 @@
 </div>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/PHP-8.2-777BB4?style=for-the-badge&logo=PHP" alt-"PHP">
+  <img src="https://img.shields.io/badge/min%20php-%20v8.1-8892BF.svg?style=flat" alt="Minimum PHP version">
 </div>
 
 # Elara
